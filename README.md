@@ -5,8 +5,4 @@
 ![alt text](https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_fontes/ClubeCiencias_CSharp/docs/DiagramaClasses.drawio.svg "Diagrama de Classes")
 
 ## Mapa Mental do Projeto
-<object data="https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_MarginNote.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_MarginNote.pdf">
-        <p>Navegador não suporta PDFs, acesse o link para ver o PDF: <a href="https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_MarginNote.pdf">Mapa Metal</a>.</p>
-    </embed>
-</object>
+![alt text](https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_MapaMental.png "Mapa Mental")
