@@ -1,5 +1,5 @@
 # projeto_2019_799 (programa Habitat)
-736/2019 - HABITAT: Educação Científica, Inovação e Meio Ambiente
+799/2019 - Clubes de Ciências: Formação Docente e Práticas Educativas com Estudantes
 
 ## Diagrama de Caso de Usos
 ![alt text](https://github.com/dalton-reis/programa_Habitat/blob/projeto_Habitat_2019_799/_fontes/ClubeCiencias_CSharp/docs/DiagramaCasoUso.drawio.svg "Diagrama de Caso de Usos")
