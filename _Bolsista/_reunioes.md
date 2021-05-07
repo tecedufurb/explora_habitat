@@ -17,7 +17,7 @@
     - https://apps.apple.com/br/app/tagarella/id1536336736
     - https://tecedufurb.github.io/braille/
 
-- baixar fontes TCC Leonardo Tagarella
+- baixar fontes TCC Leonardo Tagarella 
   - [GIT_TCC](../PortalHabitat/tcc_LeonardoPereiraVieira)
   - estudar material TCC Leonardo
     - Artigo
