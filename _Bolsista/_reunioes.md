@@ -18,7 +18,7 @@
     - https://tecedufurb.github.io/braille/
 
 - baixar fontes TCC Leonardo Tagarella
-  - GIT_TCC
+  - [GIT_TCC](../PortalHabitat/tcc_LeonardoPereiraVieira)
   - estudar material TCC Leonardo
     - Artigo
     - Ferramentas usadas
@@ -62,3 +62,12 @@
   - iink vídeos AR
   - link TCC Vigentas
 
+##### eBooksPlus
+gerar qrCode com logo no interior<br>
+hospedar em um site o vídeo<br>
+o qrCode conter o link deste vídeo no site<br>
+
+Criar um APP em Unity para ver em "3D" o vídeo<br>
+ter um qrCode para baixar o APP<br>
+
+Será que daria para ser o mesmo link, do APP e dos vídeos o começo do link leva para baixar o APP ... e ter um texto na sequencia do link que ainda levaria a página do APP, mas seria o código do video no APP em "3D"
