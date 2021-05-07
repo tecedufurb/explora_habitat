@@ -1,5 +1,8 @@
 #### 2021-05-06
 ## Projeto APP Portal Habitat
+
+[Reunião Programa Habitat](https://furb-my.sharepoint.com/:v:/g/personal/arosa_furb_br/EX4NFXE2UT5FvmHoYm4f8AMBDdKAHeR1242o-t4K61UBEg)
+
 - instalar extensões no VSCode (Dart e Flutter)
   - https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
   - https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
@@ -10,6 +13,9 @@
 
 - baixar APK loja Tagarella
   - experimentar
+    - https://play.google.com/store/apps/details?id=com.tagarela.furb.br&hl=pt
+    - https://apps.apple.com/br/app/tagarella/id1536336736
+    - https://tecedufurb.github.io/braille/
 
 - baixar fontes TCC Leonardo Tagarella
   - GIT_TCC
@@ -34,7 +40,7 @@
   - Ter no sobre
     - Desenvolvedores: TCC do Leonardo, TCC Gustavo, Lucas, Dalton e Maurício
   - Grupo de Pesquisa: ir para site do grupo
-  - Redes Sociais / Contatos
+  - Redes Sociais / Contatos / #habitatFurb
 
 - Publicar
   - subir para loja PlayStore
