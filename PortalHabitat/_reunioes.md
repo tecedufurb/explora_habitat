@@ -1,4 +1,5 @@
-#### 2021-05-06
+# 2021-05-06
+
 ## Projeto APP Portal Habitat
 
 [Reunião Programa Habitat](https://furb-my.sharepoint.com/:v:/g/personal/arosa_furb_br/EX4NFXE2UT5FvmHoYm4f8AMBDdKAHeR1242o-t4K61UBEg)
@@ -8,6 +9,8 @@
   - https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
 - executar um programa de teste
+  - VSCode View/ Command Palette
+    - fluuter: creat porjet
   - Rodar em celular, pc e Web
   - Gerar um MD no readme do projeto explicando como fazer
 
@@ -62,7 +65,8 @@
   - iink vídeos AR
   - link TCC Vigentas
 
-##### eBooksPlus
+## eBooksPlus
+
 gerar qrCode com logo no interior<br>
 hospedar em um site o vídeo<br>
 o qrCode conter o link deste vídeo no site<br>
