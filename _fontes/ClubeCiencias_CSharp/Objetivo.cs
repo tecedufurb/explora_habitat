@@ -12,15 +12,19 @@ public class Objetivo
     this.ordem = ordem;
   }
 
-  public void inserirAtividade(Atividade atividade)
+  public void inserirAtividade(/*Atividade atividade*/)
   {
-    atividades.Add(new Atividade(atividade.ToString()));
+    // atividades.Add(new Atividade(atividade.ToString()));
   }
 
-  public override string ToString()
-  {
-    //FIXME: dump ordem
-    //FIXME: não deveria ter iteração "dump" lista atividades
-    return "Descrição: " + descricao + ", Atividades: {" + string.Join(", ", atividades) + "}";
+  public void setOrdem(bool ordem) {
+    this.ordem = ordem;
   }
+
+  // public override string ToString()
+  // {
+  //   //FIXME: dump ordem
+  //   //FIXME: não deveria ter iteração "dump" lista atividades
+  //   return "Descrição: " + descricao + ", Atividades: {" + string.Join(", ", atividades) + "}";
+  // }
 }

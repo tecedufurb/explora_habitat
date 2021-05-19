@@ -1,4 +1,5 @@
-public class Atividade
+
+internal abstract class Atividade
 {
   private string descricao;
 
@@ -7,8 +8,8 @@ public class Atividade
     this.descricao = descricao;
   }
 
-  public override string ToString()
-  {
-    return descricao;
-  }
+  // public override string ToString()
+  // {
+  //   return descricao;
+  // }
 }

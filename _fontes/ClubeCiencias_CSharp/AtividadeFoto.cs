@@ -1,8 +1,10 @@
-public class AtividadeFoto : Atividade
-{
-  // private RawImage foto;
 
-  public AtividadeFoto(string descricao /*, RawImage foto */) : base(descricao)
+internal class AtividadeFoto : Atividade
+{
+  // private RawImage foto; 
+  int foto; // remover
+
+  public AtividadeFoto(string descricao, int foto /*, RawImage foto */) : base(descricao)
   {
     // this.foto = foto;
   }

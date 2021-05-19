@@ -18,9 +18,9 @@ public class Tema
     objetivos.Add(new Objetivo(objetivo.ToString()));
   }
 
-  public override string ToString()
-  {
-    //FIXME: não deveria ter iteração "dump" lista objetivos
-    return "Nome do Tema: " + nome + " Descrição do Tema: " + descricao + ", Objetivos: {" + string.Join(", ", objetivos) + "}";
-  }
+  // public override string ToString()
+  // {
+  //   //FIXME: não deveria ter iteração "dump" lista objetivos
+  //   return "Nome do Tema: " + nome + " Descrição do Tema: " + descricao + ", Objetivos: {" + string.Join(", ", objetivos) + "}";
+  // }
 }
