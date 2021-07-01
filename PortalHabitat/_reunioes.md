@@ -26,6 +26,8 @@
     - Artigo
     - Ferramentas usadas
 
+- QRCode: ver <https://github.com/dalton-reis/programa_Habitat/projects/1#card-64199281>
+
 - executar fontes Tagarella
   - commit 
 
