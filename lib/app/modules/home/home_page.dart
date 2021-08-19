@@ -55,7 +55,7 @@ class HomePageState extends State<HomePage> {
             child: GestureDetector(
               onDoubleTap: () {
                 Modular.to.pushNamedAndRemoveUntil(
-                  'home/explora_habitat',
+                  '/explora_habitat',
                   ModalRoute.withName('/home'),
                 );
               },
@@ -68,12 +68,7 @@ class HomePageState extends State<HomePage> {
                       color: EXPLORA_HABITAT_PRIMARY,
                       title: "Explora",
                       fonteSize: MediaQuery.of(context).size.height * .04,
-                      action: () {
-                        Modular.to.pushNamedAndRemoveUntil(
-                          '/home/explora_habitat',
-                          ModalRoute.withName('/home'),
-                        );
-                      },
+                      action: () {},
                     ),
                   ],
                 ),

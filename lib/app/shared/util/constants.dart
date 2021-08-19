@@ -9,5 +9,5 @@ const BLACK = Colors.black;
 const TERTIARY = Colors.deepPurple;
 
 ////Colors Explora Habitat
-const EXPLORA_HABITAT_PRIMARY = Color.fromRGBO(220, 244, 0, 100);
+const EXPLORA_HABITAT_PRIMARY = Color.fromRGBO(173, 255, 47, 100);
 const EXPLORA_HABITAT_SECONDARY = Colors.blue; //fromRGBO(79, 156, 213, 100);
