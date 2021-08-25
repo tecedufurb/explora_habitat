@@ -53,7 +53,7 @@ class HomePageState extends State<HomePage> {
           ),
           SliverFillRemaining(
             child: GestureDetector(
-              onDoubleTap: () {
+              onTap: () {
                 Modular.to.pushNamedAndRemoveUntil(
                   '/explora_habitat',
                   ModalRoute.withName('/home'),
