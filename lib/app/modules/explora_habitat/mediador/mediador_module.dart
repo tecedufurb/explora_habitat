@@ -1,11 +1,13 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-class ProfessorModule extends Module {
+import 'mediador_page.dart';
+
+class MediadorModule extends Module {
   @override
   final List<Bind> binds = [];
 
   @override
   final List<ModularRoute> routes = [
-    //ChildRoute('/', child: (_, args) => ProfessorPage()),
+    ChildRoute('/souMediador', child: (_, args) => MediadorPage()),
   ];
 }

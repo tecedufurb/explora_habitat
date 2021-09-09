@@ -55,8 +55,8 @@ class HomePageState extends State<HomePage> {
             child: GestureDetector(
               onTap: () {
                 Modular.to.pushNamedAndRemoveUntil(
-                  '/explora_habitat',
-                  ModalRoute.withName('/home'),
+                  '/explora',
+                  ModalRoute.withName('/'),
                 );
               },
               child: Container(
@@ -64,7 +64,7 @@ class HomePageState extends State<HomePage> {
                   crossAxisCount: 3,
                   children: [
                     HabitatCardWidget(
-                      '${PATH_IMAGES}Explora_habitat.png',
+                      '${PATH_IMAGES}IconLupa.png',
                       color: EXPLORA_HABITAT_PRIMARY,
                       title: "Explora",
                       fonteSize: MediaQuery.of(context).size.height * .04,
