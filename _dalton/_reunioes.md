@@ -18,7 +18,7 @@ Materiais
 
 - executar um programa de teste  
   - VSCode View/ Command Palette  
-    - fluuter: creat porjet  
+    - fluter: creat projet  
   - Rodar em celular, pc e Web  
   - Gerar um MD no readme do projeto explicando como fazer  
 
@@ -92,5 +92,10 @@ Será que daria para ser o mesmo link, do APP e dos vídeos o começo do link le
 
 - teve problemas com o uso das bibliotecas usadas no TCC do Leonardo, mas já conseguiu "se achar"  
 - [ ] não usa imagens SVG, mas sim PNG  
-- melhorando responsividade das telas (mudanças de orietnação e dimensões)  
+- melhorando responsividade das telas (mudanças de orientação e dimensões)  
 - vai fazer as próximas duas telas do "Mediador" e chegar na tela "mais complexa"  
+
+## 2021-09-23
+
+[ ] Rever todos os APPs na Loja da PlayStore.  
+
