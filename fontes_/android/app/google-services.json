@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "132005666067",
+    "project_id": "explora-habitat",
+    "storage_bucket": "explora-habitat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132005666067:android:a1f80ea5e0808354014ee6",
+        "android_client_info": {
+          "package_name": "br.furb.cgc.ExploraHabitat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132005666067-5nrp9pu1geibifhcb9s37o5klvcblrdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.furb.cgc.ExploraHabitat",
+            "certificate_hash": "9be05c0e2891b977d8dfd94ca5a7428ee05fa9d6"
+          }
+        },
+        {
+          "client_id": "132005666067-c2696gkifh1oaci5uevr3pavuc2l3272.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.furb.cgc.ExploraHabitat",
+            "certificate_hash": "a497edca458b5f53c76fd80d887102e01baa5f7f"
+          }
+        },
+        {
+          "client_id": "132005666067-h2rivi59qauv184s8jnck70hgm0brvop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.furb.cgc.ExploraHabitat",
+            "certificate_hash": "12743d5130ce5eec1badc54e3464abed6f37edf1"
+          }
+        },
+        {
+          "client_id": "132005666067-kdm1qfibsv9fc8tu905h123cioui0kjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2MpAi0ue2N220TebfhmRgrVZlh2LkCSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132005666067-kdm1qfibsv9fc8tu905h123cioui0kjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
