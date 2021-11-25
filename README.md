@@ -1,6 +1,3 @@
-Este **branch** veio de:  
-<https://github.com/dalton-reis/programa_SimulaHabitat/tree/projeto_Habitat_2019_799>  
-
 # projeto_2019_799 (programa Habitat)
 799/2019 - Clubes de Ciências: Formação Docente e Práticas Educativas com Estudantes
 
