@@ -9,5 +9,6 @@ class MediadorModule extends Module {
   @override
   final List<ModularRoute> routes = [
     ChildRoute('/souMediador', child: (_, args) => MediadorPage()),
+    //
   ];
 }
