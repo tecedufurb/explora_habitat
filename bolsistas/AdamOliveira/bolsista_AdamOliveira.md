@@ -4,6 +4,14 @@
 
 MarginNote: <marginnote3app://note/48406BC4-21AF-4367-9C68-B3385D1056D2>  
 
+CPF: 063.762.389-47  
+Vínculo: 211821  
+Nome do Aluno: Adam Oliveira  
+Curso: Ciência da Computação  
+DDD/Telefone Celular: (47)996497097  
+E-Mail: adam.oliveira002@gmail.com  
+E-mail FURB: adamo@furb.br  
+
 ## Atestado
 
 <https://www.furb.br/web/upl/arquivos/202106231650180.Atestado_atividades%20de%20Extensao.docx>  
