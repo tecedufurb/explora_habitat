@@ -4,6 +4,14 @@
 
 MarginNote: <marginnote3app://note/8B3EFDD6-1B98-4FEE-8F4B-AD7A3487527F>  
 
+CPF: 099.124.259-95  
+Vínculo: 210057  
+Nome do Aluno: Claudio Ruan da Silva  
+Curso: Ciência da Computação  
+DDD/Telefone Celular: (47)988842145  
+E-Mail: claudioruan25@gmail.com  
+E-mail FURB: claudioruan@furb.br  
+
 ## Atestado
 
 <https://www.furb.br/web/upl/arquivos/202106231650180.Atestado_atividades%20de%20Extensao.docx>  
