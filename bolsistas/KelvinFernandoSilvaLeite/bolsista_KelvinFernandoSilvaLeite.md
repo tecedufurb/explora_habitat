@@ -39,3 +39,7 @@ Depois de fazeres a parte A, farias a parte B.
 Fazer um comparativo dos trabalhos correlatos (os trabalhos pesquisados) com o projeto Aquário Virtual.  
 
 Qualquer dúvida me avise.
+
+## 2021-11-29
+
+Respondeu que já estava testando o FURBOT.  
