@@ -1,56 +1,41 @@
 # 2021-2
 
-## Bolsista (47) 99734-6750
+## Bolsista
 
-MarginNote: <marginnote3app://note/EE7A08BC-EB33-4733-9345-C79C8FB2FF58>  
+MarginNote: <marginnote3app://note/48406BC4-21AF-4367-9C68-B3385D1056D2>  
 
 ## Atestado
 
-<https://www.furb.br/web/upl/arquivos/202106231650180.Atestado_atividades%20de%20Extensao.docx>
-<https://www.furb.br/web/4120/relacao-com-a-comunidade/formularios>
+<https://www.furb.br/web/upl/arquivos/202106231650180.Atestado_atividades%20de%20Extensao.docx>  
+<https://www.furb.br/web/4120/relacao-com-a-comunidade/formularios>  
 
 ## Plano de Atividades
 
-Assunto: Testes de IU com o Espresso Test Recorder (plataforma Android).  
-Objetivo: estudar e aplicar testes de Unidade de Interface em aplicativos da plataforma Android.  
+Assunto: projeto_2021_349_PIBIC - Aquário Virtual: Simulador de Ecossistemas Utilizando Interface de Usuário Tangível.  
+Objetivo: pesquisar trabalhos correlatos e comparar com o trabalho proposto.  
 
-### Atividades
+## 2021-11-29 - Atividade
 
-- [ ] definir um cenário de teste para o aplicativo OndontoGame  
-      - disponível em: <https://forms.gle/rkzSS2Nf2Mv7yagY9>  
-- [ ] testar aplicativo OdontoGame  
-- [ ] <https://ux.sapo.pt/checklists/usabilidade-mobile/>  
-- [ ] tabular dados de resposta  
-
-### Atividades FUTURO
-
-- [ ] estudar material disponível em: <https://developer.android.com/studio/test?hl=pt-br>  
-      - em especia: <https://developer.android.com/studio/test/espresso-test-recorder?hl=pt-br>  
-- [ ] criar um tutorial para gerar novos testes em aplicativos Android  
-
-## Reuniões
-
-Agendei duas vezes mas não apareceu.  
-
-### 2021-11-22
-
-Conversei pelo MS-Teams e apresentei o projeto OTDGame. Perguntei se poderia fazer como atividade no projeto fazendo uma pesquisa e comparando com a ideia do ODTGame. Enviei a mensagem abaixo ..  
-
-Oi Sandro José Martins da Silva, conforme conversamos a sua participação no projeto ODTGame (OdontoGame) seria em duas partes:  
+Mensagem enviada ao aluno ...  
+Oi @, conforme conversamos a sua participação no projeto "Aquário Virtual" seria em duas partes:  
 
 Etapa A) pesquisa por trabalhos correlatos (10 horas);  
-Etapa B) analise de correlação entre os trabalhos correlatos e o ODTGame.  
+Etapa B) analise de correlação entre os trabalhos correlatos e o "Aquário Virtual" (10 horas).  
 
-A EtapaA seria pesquisar de 3 a 5 aplicação parecida com a ideia do projeto, de ter um tipo de jogo que motivasse principalmente as crianças a terem bons hábitos de escovação dos dentes. E para cada um tentasse responder as perguntas:  
+A EtapaA seria pesquisar de 3 a 5 aplicações com a ideia parecida ao projeto, no caso, que permitisse misturar algo do mundo real com o mundo virtual em um simulador. E para cada uma das aplicações pesquisada tentasse responder as perguntas:  
 
 - qual nome do aplicativo?  
 - qual o link (endereço na internet) de acesso ao aplicativo?  
-- breve resumo do que o aplicativo faz.  
+- breve resumo do que o aplicativo faz.
+- descrição de como o aplicativo consegue misturar algo do mundo real com o mundo virtual em um simulador.  
 - em que ano foi feito? Qual foi sua última atualização?  
-- pontos positivos relacionados a uma boa pratica de escovação?  
-- pontos negativos relacionados a uma boa pratica de escovação?  
-- pontos positivos relacionados a ser uma aplicação divertida (que possa atrair as crianças)?  
-- pontos negativos relacionados a ser uma aplicação divertida (que possa atrair as crianças)?  
+- pontos positivos relacionados a essa mistura do mundo real com virtual?  
+- pontos negativos relacionados a essa mistura do mundo real com virtual?  
+- pontos positivos relacionados a ser uma aplicação divertida (que possa atrair os usuários)?  
+- pontos negativos relacionados a ser uma aplicação divertida (que possa atrair os usuários)?  
 - comentários gerais.  
 
-Depois de me enviares a parte A eu envio a parte B.  
+Depois de fazeres a parte A, farias a parte B.  
+Fazer um comparativo dos trabalhos correlatos (os trabalhos pesquisados) com o projeto Aquário Virtual.  
+
+Qualquer dúvida me avise.
