@@ -4,6 +4,11 @@
 
 MarginNote: <marginnote3app://note/DD4C87AF-2E2A-4D44-8BAD-18CD8F5EC9AB>  
 
+Cronograma de execução  
+05/11/2021 a 07/02/2022 - Execução das atividades  
+01/12/2021 a 14/02/2022 - Entregas de atestado de execução (emitido pelo projeto)  
+Após finalização das atividades é reponsabilidade do projeto emitir atestado e enviar aos alunos.  
+
 CPF: 095.719.439-08  
 Vínculo: 80497  
 Nome do Aluno: Rodolfo Ribak  
@@ -45,5 +50,9 @@ A EtapaA seria pesquisar de 3 a 5 aplicações com a ideia parecida ao projeto, 
 
 Depois de fazeres a parte A, farias a parte B.  
 Fazer um comparativo dos trabalhos correlatos (os trabalhos pesquisados) com o projeto Aquário Virtual.  
+Bom, sobre o Aquário Virtual, ele é um projeto em execução ... e foi principalmente sendo desenvolvido por TCCs (Trabalhos de Conclusão de Curso). Segue os artigos de alguns dos TCCs ... se olhares em cada um tem uma descrição do que seria o projeto em si. Não se atenha os detalhes mais técnicos, e sim só a descrição dele:  
+
+- <https://github.com/dalton-reis/tcc_FlavioOmarLosada/blob/master/Textos/tcc_bcc_2019_1_flavioomar_FlavioOmarLosada-VF.pdf>  
+- <https://github.com/dalton-reis/tcc_MatheusWaltrichSilva/blob/master/textos/tcc_bcc_2020_1_matheuswaltrich_MatheusWaltrichDaSilva-VF.pdf>  
 
 Qualquer dúvida me avise.

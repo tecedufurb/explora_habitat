@@ -4,6 +4,11 @@
 
 MarginNote: <marginnote3app://note/3DF6D6D4-3AC7-4B56-95F2-EFE013BB76CE>  
 
+Cronograma de execução  
+05/11/2021 a 07/02/2022 - Execução das atividades  
+01/12/2021 a 14/02/2022 - Entregas de atestado de execução (emitido pelo projeto)  
+Após finalização das atividades é reponsabilidade do projeto emitir atestado e enviar aos alunos.  
+
 ## Atestado
 
 <https://www.furb.br/web/upl/arquivos/202106231650180.Atestado_atividades%20de%20Extensao.docx>  
