@@ -25,7 +25,7 @@ Objetivo: pesquisar trabalhos correlatos e comparar com o trabalho proposto.
 ## 2021-11-29 - Atividade
 
 Mensagem enviada ao aluno ...  
-Oi @, conforme conversamos a sua participação no projeto "Aquário Virtual" seria em duas partes:  
+Oi Rodolfo Ribak​, uma forma de participar no projeto "Aquário Virtual" seria fazer duas atividades:  
 
 Etapa A) pesquisa por trabalhos correlatos (10 horas);  
 Etapa B) analise de correlação entre os trabalhos correlatos e o "Aquário Virtual" (10 horas).  
