@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:habitat_app/app/shared/models/tema.dart';
 import 'package:habitat_app/app/shared/util/constants.dart';
 
 class CadastrarObjetivoPage extends StatefulWidget {
+  Tema tema = new Tema();
+  CadastrarObjetivoPage({required this.tema});
+
   @override
   CadastrarObjetivoState createState() => CadastrarObjetivoState();
 }
@@ -11,6 +15,7 @@ class CadastrarObjetivoPage extends StatefulWidget {
 class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
   @override
   Widget build(BuildContext context) {
+    print(widget.tema.getTema());
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Container(

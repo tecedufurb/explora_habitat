@@ -1,16 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:habitat_app/app/shared/models/tema.dart';
 import 'package:habitat_app/app/shared/util/constants.dart';
 
+// ignore: must_be_immutable
 class CadastrarTemaPage extends StatefulWidget {
+  Tema tema = new Tema();
+  //CadastrarTemaPage({ this.tema});
+
   @override
   CadastrarTemaState createState() => CadastrarTemaState();
 }
 
-//iniciar estado
-
 class CadastrarTemaState extends State<CadastrarTemaPage> {
+  TextEditingController _tecTema = TextEditingController();
+  TextEditingController _tecDescricao = TextEditingController();
+  FocusNode _fnTema = FocusNode();
+  FocusNode _fnDescricao = FocusNode();
+
+  @override
+  void initState() {
+    super.initState();
+    _tecTema = new TextEditingController(text: widget.tema.getTema());
+    _tecDescricao = new TextEditingController(text: widget.tema.getDescricao());
+    _fnTema = FocusNode();
+    _fnDescricao = FocusNode();
+  }
+
+  @override
+  void dispose() {
+    _fnTema.dispose();
+    _fnDescricao.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,10 +48,13 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
             Padding(
               padding: EdgeInsets.all(15),
               child: TextField(
-                //focusNode: _fnTema,
-                //controller: _tecTema,
+                focusNode: _fnTema,
+                controller: _tecTema,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(18.0),
+                      borderSide: BorderSide(
+                          color: EXPLORA_HABITAT_PRIMARY, width: 2.0)),
                   labelText: 'Cadastrar Tema*',
                 ),
               ),
@@ -35,8 +62,8 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
             Padding(
               padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
               child: TextField(
-                //focusNode: _fnDescricao,
-                //controller: _tecDescricao,
+                focusNode: _fnDescricao,
+                controller: _tecDescricao,
                 maxLength: 150,
                 maxLines: 5,
                 decoration: InputDecoration(
@@ -77,13 +104,11 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                                           color: EXPLORA_HABITAT_PRIMARY,
                                           width: 2.0)))),
                       onPressed: () {
-                        // if (validaCampos()) {
-                        //   FocusManager.instance.primaryFocus.unfocus();
-                        //   chamaTelaCadastrarObjetivosEspecificos(context, widget.tema);
-                        // }
-                        Modular.to.pushNamedAndRemoveUntil(
-                            '/explora/criarObjetivo',
-                            ModalRoute.withName('/explora'));
+                        if (validaCampos()) {
+                          FocusManager.instance.primaryFocus!.unfocus();
+                          chamaTelaCadastrarObjetivosEspecificos(
+                              context, widget.tema);
+                        }
                       },
                     ),
                   ),
@@ -106,12 +131,9 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                                           color: EXPLORA_HABITAT_PRIMARY,
                                           width: 2.0)))),
                       onPressed: () {
-                        // if (validaCampos()) {
-                        //   finalizarTemaGerarQRCode();
-                        // }
-                        Modular.to.pushNamedAndRemoveUntil(
-                            '/explora/souMediador',
-                            ModalRoute.withName('/explora'));
+                        if (validaCampos()) {
+                          finalizarTemaGerarQRCode();
+                        }
                       },
                     ),
                   ),
@@ -123,6 +145,47 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
       ),
     );
   }
-}
 
-// métodos internos:
+  bool validaCampos() {
+    if (_tecTema.text.isEmpty) {
+      _fnTema.requestFocus();
+      return false;
+    } else if (_tecDescricao.text.isEmpty) {
+      _fnDescricao.requestFocus();
+      return false;
+    }
+
+    if (widget.tema.getListaObjEspecifico().isNotEmpty) {
+      widget.tema.setObjDefinido(true);
+    }
+
+    if (widget.tema.getObjDefinido()) {
+      for (final it in widget.tema.getListaObjEspecifico()) {
+        if (it.getRoteiro().getQtdAtividades() > 0) {
+          widget.tema.setRoteiroDefinido(true);
+          break;
+        }
+      }
+    }
+
+    return true;
+  }
+
+  void chamaTelaCadastrarObjetivosEspecificos(
+      BuildContext context, Tema tema) async {
+    tema.setDescricao(_tecDescricao.text);
+    tema.setTema(_tecTema.text);
+    print(tema.getTema());
+    Modular.to.pushNamedAndRemoveUntil(
+        '/explora/criarObjetivo', ModalRoute.withName('/explora'),
+        arguments: tema);
+  }
+
+  void finalizarTemaGerarQRCode() {
+    widget.tema.setTema(_tecTema.text);
+    widget.tema.setDescricao(_tecDescricao.text);
+
+    Modular.to.pushNamedAndRemoveUntil(
+        '/explora/souMediador', ModalRoute.withName('/explora'));
+  }
+}
