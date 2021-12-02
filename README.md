@@ -8,4 +8,5 @@
 [branch_2019_799_LucasSerodioGoncalves](https://github.com/tecedufurb/habitat/tree/2019_799_LucasSerodioGoncalves "branch_2019_799_LucasSerodioGoncalves")  
 [branch_2019_799_LucasSerodioGoncalves_unity](https://github.com/tecedufurb/habitat/tree/2019_799_LucasSerodioGoncalves_Unity "branch_2019_799_LucasSerodioGoncalves_unity")  
 
-![Habitat](habitat_logo_URL.png)
+[logos](/logos "logos")  
+![Habitat](logos/habitat_logo_URL.png)  
