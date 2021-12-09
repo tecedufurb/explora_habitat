@@ -51,7 +51,7 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
                       // textColor: Colors.white,
                       child: Text(
                         "Confirmar",
-                        //style: TextStyle(fontSize: 20),
+                        style: TextStyle(fontSize: 14),
                       ),
                       style: ButtonStyle(
                           shape:
@@ -77,6 +77,7 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
             ),
             Flexible(
               child: ListView.builder(
+                padding: EdgeInsets.fromLTRB(5, 15, 5, 0),
                 itemCount: 3, // widget.tema.getListaObjEspecifico().length,
                 itemBuilder: (context, index) {
                   return Container(
