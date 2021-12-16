@@ -13,30 +13,30 @@ class CadastrarRoteiroState extends State<CadastrarRoteiroPage> {
     'Medida',
     'Solo',
     'Interação',
-    'Área desmatada',
+    //'Área desmatada',
     'Vídeo',
     'Característica',
     'Lupa',
     'Vivência',
-    'Mosquito',
+    //'Mosquito',
     'Áudio',
     // 'Teste',
-    // //'Desenhar',
-    // 'Ficha Coleta',
+    'Desenhar',
+    'Ficha Coleta',
     // 'Lixo',
-    // 'Sons da Natureza',
+    'Sons da Natureza',
     'Localização',
-    // 'Produção de Material',
+    'Produção de Material',
     // 'Outra intervenção',
-    // 'Plantar',
-    // 'Personalizada'
+    'Plantar',
+    'Personalizada'
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.green[300],
+        color: EXPLORA_BACKGROUND_COLOR,
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(horizontal: 10, vertical: 15),
         child: Column(
@@ -56,8 +56,8 @@ class CadastrarRoteiroState extends State<CadastrarRoteiroPage> {
                   Expanded(
                     flex: 2,
                     child: GridView.count(
-                      mainAxisSpacing: 10,
-                      crossAxisSpacing: 10,
+                      mainAxisSpacing: 5,
+                      crossAxisSpacing: 5,
                       crossAxisCount: 4,
                       shrinkWrap: true,
                       scrollDirection: Axis.vertical,
@@ -67,9 +67,9 @@ class CadastrarRoteiroState extends State<CadastrarRoteiroPage> {
                         (index) {
                           return TextButton(
                             style: TextButton.styleFrom(
-                              side: BorderSide(
-                                  color: EXPLORA_HABITAT_PRIMARY, width: 2.0),
-                              backgroundColor: Colors.green[500],
+                              // side: BorderSide(
+                              //     color: EXPLORA_BTN_COLOR, width: 2.0),
+                              backgroundColor: EXPLORA_BTN_COLOR,
                               primary: Colors.white,
                             ),
                             child: Column(
@@ -120,7 +120,7 @@ class CadastrarRoteiroState extends State<CadastrarRoteiroPage> {
                             title: Text(
                               "Teste",
                               //widget.tema.getObjEspecifico(index).getObjetivo(),
-                              style: TextStyle(fontSize: 12),
+                              style: TextStyle(fontSize: 8),
                             ),
                             dense: true,
                             trailing: Wrap(
@@ -190,6 +190,8 @@ class CadastrarRoteiroState extends State<CadastrarRoteiroPage> {
                     child: ElevatedButton(
                       // color: Colors.green[500],
                       // textColor: Colors.white,
+                      style: TextButton.styleFrom(
+                          backgroundColor: EXPLORA_BTN_COLOR),
                       child: Text(
                         "Finalizar atividade",
                         style: TextStyle(fontSize: 14),

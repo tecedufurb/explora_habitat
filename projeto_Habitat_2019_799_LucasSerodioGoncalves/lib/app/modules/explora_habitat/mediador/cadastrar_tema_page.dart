@@ -40,7 +40,7 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Container(
-        color: Colors.green[300],
+        color: EXPLORA_BACKGROUND_COLOR,
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(horizontal: 0, vertical: 15),
         child: Column(
@@ -51,10 +51,11 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                 focusNode: _fnTema,
                 controller: _tecTema,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(18.0),
-                      borderSide: BorderSide(
-                          color: EXPLORA_HABITAT_PRIMARY, width: 2.0)),
+                  border: OutlineInputBorder(),
+                  // border: OutlineInputBorder(
+                  //     borderRadius: BorderRadius.circular(18.0),
+                  //     borderSide: BorderSide(
+                  //         color: EXPLORA_HABITAT_PRIMARY, width: 2.0)),
                   labelText: 'Cadastrar Tema*',
                 ),
               ),
@@ -67,17 +68,18 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                 maxLength: 150,
                 maxLines: 5,
                 decoration: InputDecoration(
+                  border: OutlineInputBorder(),
                   labelText: 'Objetivo geral da atividade de campo*',
                   hintText: 'Procurar árvore araucária',
                   alignLabelWithHint: true,
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                    borderSide: BorderSide(color: Colors.grey),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                    borderSide: BorderSide(color: Colors.grey),
-                  ),
+                  // enabledBorder: OutlineInputBorder(
+                  //   borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                  //   borderSide: BorderSide(color: Colors.grey),
+                  // ),
+                  //   focusedBorder: OutlineInputBorder(
+                  //     borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                  //     borderSide: BorderSide(color: Colors.grey),
+                  //   ),
                 ),
               ),
             ),
@@ -96,13 +98,15 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                         //style: TextStyle(fontSize: 20),
                       ),
                       style: ButtonStyle(
-                          shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
-                                  RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(18.0),
-                                      side: BorderSide(
-                                          color: EXPLORA_HABITAT_PRIMARY,
-                                          width: 2.0)))),
+                          // shape:
+                          //     MaterialStateProperty.all<RoundedRectangleBorder>(
+                          //         RoundedRectangleBorder(
+                          //             borderRadius: BorderRadius.circular(18.0),
+                          //             side: BorderSide(
+                          //                 color: EXPLORA_HABITAT_PRIMARY,
+                          //                 width: 2.0)))
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              EXPLORA_BTN_COLOR)),
                       onPressed: () {
                         if (validaCampos()) {
                           FocusManager.instance.primaryFocus!.unfocus();
@@ -123,13 +127,15 @@ class CadastrarTemaState extends State<CadastrarTemaPage> {
                         //style: TextStyle(fontSize: 20),
                       ),
                       style: ButtonStyle(
-                          shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
-                                  RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(18.0),
-                                      side: BorderSide(
-                                          color: EXPLORA_HABITAT_PRIMARY,
-                                          width: 2.0)))),
+                          // shape:
+                          //     MaterialStateProperty.all<RoundedRectangleBorder>(
+                          //         RoundedRectangleBorder(
+                          //             borderRadius: BorderRadius.circular(18.0),
+                          //             side: BorderSide(
+                          //                 color: EXPLORA_HABITAT_PRIMARY,
+                          //                 width: 2.0)))
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              EXPLORA_BTN_COLOR)),
                       onPressed: () {
                         if (validaCampos()) {
                           finalizarTemaGerarQRCode();

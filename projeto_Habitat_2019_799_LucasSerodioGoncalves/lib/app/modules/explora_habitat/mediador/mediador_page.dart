@@ -34,7 +34,7 @@ class MediadorState extends State<MediadorPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.green.shade200,
+        backgroundColor: EXPLORA_BACKGROUND_COLOR,
         drawer: MenuHabitatWidget(),
         body: Container(
           //color: Colors.green[300],
@@ -57,13 +57,16 @@ class MediadorState extends State<MediadorPage> {
                           vertical: 0),
                       child: ElevatedButton(
                         style: ButtonStyle(
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18.0),
-                                    side: BorderSide(
-                                        color: EXPLORA_HABITAT_PRIMARY,
-                                        width: 2.0)))),
+                          // shape: MaterialStateProperty.all<
+                          //         RoundedRectangleBorder>(
+                          //     RoundedRectangleBorder(
+                          //         borderRadius: BorderRadius.circular(18.0),
+                          //         side: BorderSide(
+                          //             color: EXPLORA_HABITAT_PRIMARY,
+                          //             width: 2.0))
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              EXPLORA_BTN_COLOR),
+                        ),
                         child: Text('Novo'),
                         onPressed: () {
                           Modular.to.pushNamedAndRemoveUntil(
@@ -83,13 +86,15 @@ class MediadorState extends State<MediadorPage> {
                           //style: TextStyle(fontSize: 14),
                         ),
                         style: ButtonStyle(
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18.0),
-                                    side: BorderSide(
-                                        color: EXPLORA_HABITAT_PRIMARY,
-                                        width: 2.0)))),
+                            // shape: MaterialStateProperty.all<
+                            //         RoundedRectangleBorder>(
+                            //     RoundedRectangleBorder(
+                            //         borderRadius: BorderRadius.circular(18.0),
+                            //         side: BorderSide(
+                            //             color: EXPLORA_HABITAT_PRIMARY,
+                            //             width: 2.0)))
+                            backgroundColor: MaterialStateProperty.all<Color>(
+                                EXPLORA_BTN_COLOR)),
                         onPressed: () {},
                       ),
                     ),
@@ -103,13 +108,15 @@ class MediadorState extends State<MediadorPage> {
                           //style: TextStyle(fontSize: 14),
                         ),
                         style: ButtonStyle(
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18.0),
-                                    side: BorderSide(
-                                        color: EXPLORA_HABITAT_PRIMARY,
-                                        width: 2.0)))),
+                            // shape: MaterialStateProperty.all<
+                            //         RoundedRectangleBorder>(
+                            //     RoundedRectangleBorder(
+                            //         borderRadius: BorderRadius.circular(18.0),
+                            //         side: BorderSide(
+                            //             color: EXPLORA_HABITAT_PRIMARY,
+                            //             width: 2.0)))
+                            backgroundColor: MaterialStateProperty.all<Color>(
+                                EXPLORA_BTN_COLOR)),
                         onPressed: () {},
                       ),
                     ),
@@ -123,13 +130,15 @@ class MediadorState extends State<MediadorPage> {
                           //style: TextStyle(fontSize: 14),
                         ),
                         style: ButtonStyle(
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18.0),
-                                    side: BorderSide(
-                                        color: EXPLORA_HABITAT_PRIMARY,
-                                        width: 2.0)))),
+                            // shape: MaterialStateProperty.all<
+                            //         RoundedRectangleBorder>(
+                            //     RoundedRectangleBorder(
+                            //         borderRadius: BorderRadius.circular(18.0),
+                            //         side: BorderSide(
+                            //             color: EXPLORA_HABITAT_PRIMARY,
+                            //             width: 2.0)))
+                            backgroundColor: MaterialStateProperty.all<Color>(
+                                EXPLORA_BTN_COLOR)),
                         onPressed: () {},
                       ),
                     ),
@@ -143,13 +152,15 @@ class MediadorState extends State<MediadorPage> {
                           //style: TextStyle(fontSize: 14),
                         ),
                         style: ButtonStyle(
-                            shape: MaterialStateProperty.all<
-                                    RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18.0),
-                                    side: BorderSide(
-                                        color: EXPLORA_HABITAT_PRIMARY,
-                                        width: 2.0)))),
+                            // shape: MaterialStateProperty.all<
+                            //         RoundedRectangleBorder>(
+                            //     RoundedRectangleBorder(
+                            //         borderRadius: BorderRadius.circular(18.0),
+                            //         side: BorderSide(
+                            //             color: EXPLORA_HABITAT_PRIMARY,
+                            //             width: 2.0)))
+                            backgroundColor: MaterialStateProperty.all<Color>(
+                                EXPLORA_BTN_COLOR)),
                         onPressed: () {},
                       ),
                     ),

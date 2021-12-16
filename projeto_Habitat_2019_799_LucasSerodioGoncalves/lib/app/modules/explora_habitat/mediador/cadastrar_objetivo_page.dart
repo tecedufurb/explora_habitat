@@ -19,7 +19,7 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Container(
-        color: Colors.green[300],
+        color: EXPLORA_BACKGROUND_COLOR,
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
         child: Column(
@@ -54,13 +54,15 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
                         style: TextStyle(fontSize: 14),
                       ),
                       style: ButtonStyle(
-                          shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
-                                  RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(18.0),
-                                      side: BorderSide(
-                                          color: EXPLORA_HABITAT_PRIMARY,
-                                          width: 2.0)))),
+                          // shape:
+                          //     MaterialStateProperty.all<RoundedRectangleBorder>(
+                          //         RoundedRectangleBorder(
+                          //             borderRadius: BorderRadius.circular(18.0),
+                          //             side: BorderSide(
+                          //                 color: EXPLORA_HABITAT_PRIMARY,
+                          //                 width: 2.0)))
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              EXPLORA_BTN_COLOR)),
                       onPressed: () {
                         // if (validaCampos()) {
                         //   FocusManager.instance.primaryFocus.unfocus();
@@ -104,14 +106,17 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
                               style: TextStyle(fontSize: 15),
                             ),
                             style: ButtonStyle(
-                                shape: MaterialStateProperty.all<
-                                        RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(18.0),
-                                        side: BorderSide(
-                                            color: EXPLORA_HABITAT_PRIMARY,
-                                            width: 2.0)))),
+                                // shape: MaterialStateProperty.all<
+                                //         RoundedRectangleBorder>(
+                                //     RoundedRectangleBorder(
+                                //         borderRadius:
+                                //             BorderRadius.circular(18.0),
+                                //         side: BorderSide(
+                                //             color: EXPLORA_HABITAT_PRIMARY,
+                                //             width: 2.0)))
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        EXPLORA_BTN_COLOR)),
                             onPressed: () {
                               // FocusManager.instance.primaryFocus.unfocus();
                               // chamaTelaCadastrarRoteiro(context, widget.tema.getObjEspecifico(index));
@@ -151,11 +156,13 @@ class CadastrarObjetivoState extends State<CadastrarObjetivoPage> {
                   style: TextStyle(fontSize: 20),
                 ),
                 style: ButtonStyle(
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                        RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(18.0),
-                            side: BorderSide(
-                                color: EXPLORA_HABITAT_PRIMARY, width: 2.0)))),
+                    // shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    //     RoundedRectangleBorder(
+                    //         borderRadius: BorderRadius.circular(18.0),
+                    //         side: BorderSide(
+                    //             color: EXPLORA_HABITAT_PRIMARY, width: 2.0)))
+                    backgroundColor:
+                        MaterialStateProperty.all<Color>(EXPLORA_BTN_COLOR)),
                 onPressed: () {
                   //chamaTelaCadastrarTema(context);
                   Modular.to.pushNamedAndRemoveUntil(

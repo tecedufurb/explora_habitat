@@ -11,3 +11,5 @@ const TERTIARY = Colors.deepPurple;
 ////Colors Explora Habitat
 const EXPLORA_HABITAT_PRIMARY = Color.fromRGBO(173, 255, 47, 100);
 const EXPLORA_HABITAT_SECONDARY = Colors.blue;
+const EXPLORA_BTN_COLOR = Color.fromRGBO(0, 102, 51, 100);
+const EXPLORA_BACKGROUND_COLOR = Color.fromRGBO(229, 255, 204, 100);
